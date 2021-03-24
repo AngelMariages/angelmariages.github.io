@@ -1,0 +1,39 @@
+baseURL = "/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+title = "Àngel Mariages"
+
+enableRobotsTXT = true
+
+disableKinds = ["RSS"]
+
+[params]
+homeSubtitle = "Full Stack engineer"
+keywords = "CesarBiker, Cesar_Biker, fullstack, full-stack, developer, engineer, android"
+
+[params.logo]
+logoCursorDisabled = true
+logoHomeLink = "/"
+logoMark = " "
+logoText = "127.0.0.1"
+
+[params.portrait]
+path = "imgs/3d2b6ac4-e5bf-4d79-b999-0a3136c03004.png"
+alt = "hey"
+maxWidth = "22%"
+
+
+[[params.social]]
+name = "github"
+url ="https://github.com/AngelMariages"
+
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/%C3%A0ngel-mariages-de-la-cruz-13250810a/"
+
+[[params.social]]
+name = "googleplay"
+url = "https://play.google.com/store/apps/developer?id=FromNirvana"
+
+[author]
+name = "Àngel Mariages"
