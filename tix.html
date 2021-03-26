@@ -7,12 +7,12 @@
 		var interval;
 		var canvas;
 		var quadrats = [];
-		var d = new Date();		
-		
+		var d = new Date();
+
 		function main() {
 			crearQuadrats();
-			pintarQuadrats();			
-			interval = setInterval(actualitzarQuadrats, 2500);		
+			pintarQuadrats();
+			interval = setInterval(actualitzarQuadrats, 2500);
 		}
 
 		Quadrat.amplada = 50;
@@ -61,7 +61,7 @@
 
 		function actualitzarQuadrats() {
 			//if(hora1 > 2 || hora1 < 0 || hora2 > 9 || hora2 < 0 || mins1 > 6 || mins1 < 0 || mins2 > 9 || mins2 < 0)
-        	//	return;        	
+        	//	return;
         	var h = d.getHours().toString();
         	var m = d.getMinutes().toString();
         	var hora1 = h.substring(0,1), hora2 = h.substring(1,2), mins1 = m.substring(0,1), mins2 = m.substring(1,2);
